@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header .links {
+  padding: 10px 20px;
+}
+header .links a {
+  font-size: larger;
+  color: black;
+  font-family: arial black;
+}
+
+.logo img {
+  height: 50px;
+}
+.logo .text {
+  background-color: darkblue;
+  font-family: arial black;
+  font-size: 30px;
+  padding-left: 19px;
+  color: white;
+}
+.logo .i {
+  font-size: 30px;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+}
+.all .wrap {
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  line-height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: 2px 13px 2px;
+  padding: 20px 20px;
+}
+.all form {
+  line-height: 38px;
+}
+.all form label {
+  font-weight: calibri;
+  font-size: 35px;
+}
+.all form .policy {
+  font-size: larger;
+}
+.all form .input {
+  width: 400px;
+  height: 45px;
+  padding-left: 20px;
+  font-size: larger;
+}
+.all form button {
+  padding: 9px 18px;
+  outline: none;
+  border: none;
+  background: darkblue;
+}
+.all form button a {
+  color: white;
+}
+.all form button:hover {
+  transform: scale(1.01, 1.01);
+}
+.all .last {
+  line-height: 48px;
+}
+.all .last .f {
+  display: flex;
+  justify-content: space-between;
+}
+.all .last .line {
+  border-bottom: 0.01px solid;
+  width: 100%;
+}
+.all .last .l {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=form.css.map */
